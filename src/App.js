@@ -15,7 +15,7 @@ function App() {
         <nav className="navSection">
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">Hme</Link>
             </li>
             <li>
               <Link to="/about">About</Link>
