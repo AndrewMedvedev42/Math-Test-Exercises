@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+body{
+  .router{
+    border: 5px dotted red;
+    nav{
+      border: 5px dotted rgb(129, 172, 61);
+      ul{
+        display: flex;
+        li{
+          list-style-type: none;
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+  color: rgb(255, 136, 0);
+  h2{
+    color: green;
+  }
+}
