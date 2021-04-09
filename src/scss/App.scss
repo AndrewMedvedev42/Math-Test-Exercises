@@ -4,9 +4,9 @@
 
 body{
   .router{
-    border: 5px dotted red;
-    nav{
-      border: 5px dotted rgb(129, 172, 61);
+    border: 5px solid rgb(59, 50, 190);
+    .navSection{
+      border: 5px solid rgb(129, 172, 61);
       ul{
         display: flex;
         li{
@@ -16,8 +16,20 @@ body{
       }
     }
   }
-  color: rgb(206, 120, 22);
-  h2{
-    color: green;
+  .difficultyRouter{
+    border: 10px solid rgb(190, 90, 50);
+    .difficultySection{
+        ul{
+          border: 10px solid rgb(50, 190, 69);
+          display: flex;
+          li{
+            list-style-type: none;
+            margin-right: 1rem;
+          }
+        }
+    }
   }
+}
+.item{
+  border: 10px solid rgb(50, 190, 69);
 }

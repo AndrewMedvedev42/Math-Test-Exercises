@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Math-Test-Exercises/static/css/main.a2076f65.chunk.css",
-    "main.js": "/Math-Test-Exercises/static/js/main.ddfbc677.chunk.js",
-    "main.js.map": "/Math-Test-Exercises/static/js/main.ddfbc677.chunk.js.map",
+    "main.css": "/Math-Test-Exercises/static/css/main.ed7f63da.chunk.css",
+    "main.js": "/Math-Test-Exercises/static/js/main.d460073d.chunk.js",
+    "main.js.map": "/Math-Test-Exercises/static/js/main.d460073d.chunk.js.map",
     "runtime-main.js": "/Math-Test-Exercises/static/js/runtime-main.5a2453c6.js",
     "runtime-main.js.map": "/Math-Test-Exercises/static/js/runtime-main.5a2453c6.js.map",
-    "static/js/2.dd557d86.chunk.js": "/Math-Test-Exercises/static/js/2.dd557d86.chunk.js",
-    "static/js/2.dd557d86.chunk.js.map": "/Math-Test-Exercises/static/js/2.dd557d86.chunk.js.map",
+    "static/js/2.8fc401ae.chunk.js": "/Math-Test-Exercises/static/js/2.8fc401ae.chunk.js",
+    "static/js/2.8fc401ae.chunk.js.map": "/Math-Test-Exercises/static/js/2.8fc401ae.chunk.js.map",
     "static/js/3.b72c4b39.chunk.js": "/Math-Test-Exercises/static/js/3.b72c4b39.chunk.js",
     "static/js/3.b72c4b39.chunk.js.map": "/Math-Test-Exercises/static/js/3.b72c4b39.chunk.js.map",
     "index.html": "/Math-Test-Exercises/index.html",
-    "static/css/main.a2076f65.chunk.css.map": "/Math-Test-Exercises/static/css/main.a2076f65.chunk.css.map",
-    "static/js/2.dd557d86.chunk.js.LICENSE.txt": "/Math-Test-Exercises/static/js/2.dd557d86.chunk.js.LICENSE.txt"
+    "static/css/main.ed7f63da.chunk.css.map": "/Math-Test-Exercises/static/css/main.ed7f63da.chunk.css.map",
+    "static/js/2.8fc401ae.chunk.js.LICENSE.txt": "/Math-Test-Exercises/static/js/2.8fc401ae.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5a2453c6.js",
-    "static/js/2.dd557d86.chunk.js",
-    "static/css/main.a2076f65.chunk.css",
-    "static/js/main.ddfbc677.chunk.js"
+    "static/js/2.8fc401ae.chunk.js",
+    "static/css/main.ed7f63da.chunk.css",
+    "static/js/main.d460073d.chunk.js"
   ]
 }
