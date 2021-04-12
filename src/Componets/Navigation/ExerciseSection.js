@@ -1,4 +1,4 @@
-import  EasyExercise  from "../ExerciseTemplate/Easy.jsx";
+import  Template  from "../ExerciseTemplate/Template.jsx";
 
 import {
     BrowserRouter as Router,
@@ -30,13 +30,13 @@ function Exercises() {
               renders the first one that matches the current URL. */}
           <Switch>
             <Route path="/exercises/easy">
-              <EasyExercise/>
+              <Template keyName="easy"/>
             </Route>
             <Route path="/exercises/normal">
-              <h1>Normal</h1>
+              <Template keyName="norm"/>
             </Route>
             <Route path="/exercises/hard">
-              <h1>Hard</h1>
+              <Template keyName="hard"/>
             </Route>
           </Switch>
         </section>
