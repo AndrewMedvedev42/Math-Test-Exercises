@@ -1,5 +1,5 @@
 import { useState } from "react"
-import EasyData from "../ExerciseData/ExerciseData.js"
+import Data from "../ExerciseData/ExerciseData.js"
 
 function Template({keyName}){
 
@@ -8,7 +8,7 @@ function Template({keyName}){
   console.log(keyName);
 
     return( <section>{
-      EasyData.map((induvidual)=>{
+      Data.map((induvidual)=>{
         const {keyPass, problemDescription, mathProblem, answer, sortKey, id} = induvidual
 
         if(sortKey === keyName){
@@ -21,9 +21,9 @@ function Template({keyName}){
             console.log("Checked")
             console.log(typeof typedAnswer)
             if(parseInt(typedAnswer) === answer){
-              console.log("You get it right! Good Job!")
+              alert("You get it right! Good Job!")
             }else{
-              console.log("Answer is incorrect");
+              alert("Answer is incorrect");
             }
           }
           
@@ -32,8 +32,10 @@ function Template({keyName}){
              <p>{problemDescription}</p>
                 <div className="itemContent">
                     <h3>{mathProblem}</h3>
-                    <input type="text" onChange={onChange}/>
-                    <button onClick={onCheck}>Submit</button>
+                    <div>
+                      <input type="text" onChange={onChange}/>
+                      <button onClick={onCheck}>Submit</button>
+                    </div>
                 </div>
            </div>
           )

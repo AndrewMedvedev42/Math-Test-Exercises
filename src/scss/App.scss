@@ -17,11 +17,12 @@ body{
     }
   }
   .difficultyRouter{
-    border: 10px solid rgb(190, 90, 50);
+    background-color: rgb(255, 163, 102);
+
     .difficultySection{
         ul{
-          border: 10px solid rgb(50, 190, 69);
           display: flex;
+          justify-content: center;
           li{
             list-style-type: none;
             margin-right: 1rem;
@@ -31,5 +32,23 @@ body{
   }
 }
 .item{
-  border: 10px solid rgb(50, 190, 69);
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+  // border: 5px solid rgb(50, 190, 69);
+  div{
+    div{
+      display: flex;
+      justify-content: space-between;
+      input, button{
+        border-radius: 25px;
+        padding: 0.7rem;
+      }
+      button{
+        width: 100px;
+      }
+
+    }
+  }
 }

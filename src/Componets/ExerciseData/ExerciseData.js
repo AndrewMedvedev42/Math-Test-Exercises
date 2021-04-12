@@ -1,16 +1,16 @@
 //Here is the data that cotains description, math problem, and answer
 
-const EasyData = [
-    {id:1, sortKey:"easy", problemDescription:"Easy ex" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
-    {id:2, sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
-    {id:3, sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
-    {id:4,  sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
-    {id:5,  sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
-    {id:6,  sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
-    {id:7,  sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
-    {id:8,  sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
-    {id:9, sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
-    {id:10,  sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
+const Data = [
+    {id:1, sortKey:"easy", problemDescription:"Easy ex" ,mathProblem:"2+2", answer:7},
+    {id:2, sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"2+2", answer:7},
+    {id:3, sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"2+2", answer:7},
+    {id:4,  sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"2+2", answer:7},
+    {id:5,  sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"2+2", answer:7},
+    {id:6,  sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"2+2", answer:7},
+    {id:7,  sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"2+2", answer:7},
+    {id:8,  sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"2+2", answer:7},
+    {id:9, sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"2+2", answer:7},
+    {id:10,  sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"2+2", answer:7},
 
     {id:11, sortKey:"norm",problemDescription:"Norm ex" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
     {id:12,  sortKey:"norm",problemDescription:"Norm ex" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
@@ -35,7 +35,5 @@ const EasyData = [
     {id:30,  sortKey:"hard",problemDescription:"Hard ex" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
 ]
 
-
-
 //Exporting the data
-export default EasyData
+export default Data

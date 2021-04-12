@@ -12,13 +12,24 @@ body .router {
         margin-right: 1rem; }
 
 body .difficultyRouter {
-  border: 10px solid #be5a32; }
+  background-color: #ffa366; }
   body .difficultyRouter .difficultySection ul {
-    border: 10px solid #32be45;
-    display: flex; }
+    display: flex;
+    justify-content: center; }
     body .difficultyRouter .difficultySection ul li {
       list-style-type: none;
       margin-right: 1rem; }
 
 .item {
-  border: 10px solid #32be45; }
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 25px;
+  background-color: white; }
+  .item div div {
+    display: flex;
+    justify-content: space-between; }
+    .item div div input, .item div div button {
+      border-radius: 25px;
+      padding: 0.7rem; }
+    .item div div button {
+      width: 100px; }
