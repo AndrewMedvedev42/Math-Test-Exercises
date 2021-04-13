@@ -1,4 +1,5 @@
 import  Template  from "../ExerciseTemplate/Template.jsx";
+import '../../css/App.css';
 
 import {
     BrowserRouter as Router,
@@ -12,16 +13,15 @@ function Exercises() {
         <Router>
         <section className="difficultyRouter">
           <nav className="difficultySection">
-            <h1>Choose difficulty</h1>
             <ul>
               <li>
-                <Link to="/exercises/easy">Easy</Link>
+                <Link className="Link linkHover" to="/exercises/easy">Easy</Link>
               </li>
               <li>
-                <Link to="/exercises/normal">Normal</Link>
+                <Link className="Link linkHover" to="/exercises/normal">Normal</Link>
               </li>
               <li>
-                <Link to="/exercises/hard">Hard</Link>
+                <Link className="Link linkHover" to="/exercises/hard">Hard</Link>
               </li>
             </ul>
           </nav>

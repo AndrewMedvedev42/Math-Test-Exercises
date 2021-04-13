@@ -20,11 +20,11 @@ function App() {
 
           <ul>
             <li>
-              <Link to="/">Exercises</Link>
+              <Link className="Link" to="/">Exercises</Link>
             </li>
 
             <li>
-              <Link to="/about">About</Link>
+              <Link className="Link" to="/about">About</Link>
             </li>
           </ul>
 

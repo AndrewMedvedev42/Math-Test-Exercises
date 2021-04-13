@@ -1,35 +1,78 @@
 .App {
   text-align: center; }
 
-body .router {
-  border: 5px solid #3b32be; }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffa366; }
   body .router .navSection {
-    border: 5px solid #81ac3d; }
+    padding: 1px;
+    background-color: white; }
     body .router .navSection ul {
+      align-items: center;
       display: flex; }
       body .router .navSection ul li {
         list-style-type: none;
         margin-right: 1rem; }
-
-body .difficultyRouter {
-  background-color: #ffa366; }
-  body .difficultyRouter .difficultySection ul {
-    display: flex;
-    justify-content: center; }
-    body .difficultyRouter .difficultySection ul li {
-      list-style-type: none;
-      margin-right: 1rem; }
+        body .router .navSection ul li .Link {
+          color: #cc5200;
+          font-weight: bold;
+          font-size: 1.5rem;
+          text-decoration: none;
+          transition: 0.2s;
+          cursor: pointer; }
+        body .router .navSection ul li .Link:hover, body .router .navSection ul li :active {
+          color: black;
+          border-bottom: solid black 5px; }
+        body .router .navSection ul li .Link:target {
+          color: #992424; }
+  body .difficultyRouter {
+    background-color: #ffa366; }
+    body .difficultyRouter .difficultySection ul {
+      display: flex;
+      justify-content: center; }
+      body .difficultyRouter .difficultySection ul li {
+        margin: 0.5rem;
+        list-style-type: none;
+        margin-right: 1rem; }
+        body .difficultyRouter .difficultySection ul li .Link {
+          text-decoration: none;
+          color: white;
+          font-size: 1.5rem;
+          padding: 0.7rem;
+          font-weight: bolder;
+          border-radius: 25px;
+          background-color: #cc5200;
+          transition: 0.5s; }
+        body .difficultyRouter .difficultySection ul li .linkHover:hover {
+          background: white;
+          color: #cc5200; }
 
 .item {
   margin: 1rem;
   padding: 1rem;
   border-radius: 25px;
-  background-color: white; }
+  background-color: white;
+  box-shadow: rgba(153, 0, 0, 0.288) 5px 5px 0; }
   .item div div {
     display: flex;
     justify-content: space-between; }
     .item div div input, .item div div button {
+      margin: 0.5rem;
       border-radius: 25px;
-      padding: 0.7rem; }
+      padding: 1rem;
+      border: none; }
+    .item div div input {
+      width: 250px;
+      font-size: 1rem;
+      border: 1px solid rgba(0, 0, 0, 0.486);
+      font-weight: bold;
+      letter-spacing: 2px; }
     .item div div button {
-      width: 100px; }
+      width: 100px;
+      color: white;
+      font-size: large;
+      font-weight: bolder;
+      background-color: #cc5200;
+      transition: 0.5s; }
+    .item div div button:hover {
+      background: #ffa366; }

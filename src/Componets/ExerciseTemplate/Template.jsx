@@ -29,9 +29,9 @@ function Template({keyName}){
           
           return (
            <div key={id} className="item">
-             <p>{problemDescription}</p>
+             <h3>{problemDescription}</h3>
                 <div className="itemContent">
-                    <h3>{mathProblem}</h3>
+                    <p>{mathProblem}</p>
                     <div>
                       <input type="text" onChange={onChange}/>
                       <button onClick={onCheck}>Submit</button>
