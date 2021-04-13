@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Math-Test-Exercises/static/css/main.4130e38f.chunk.css",
+    "main.css": "/Math-Test-Exercises/static/css/main.fc97488c.chunk.css",
     "main.js": "/Math-Test-Exercises/static/js/main.9fa90c32.chunk.js",
     "main.js.map": "/Math-Test-Exercises/static/js/main.9fa90c32.chunk.js.map",
     "runtime-main.js": "/Math-Test-Exercises/static/js/runtime-main.70ecc0c4.js",
@@ -10,13 +10,13 @@
     "static/js/3.75219325.chunk.js": "/Math-Test-Exercises/static/js/3.75219325.chunk.js",
     "static/js/3.75219325.chunk.js.map": "/Math-Test-Exercises/static/js/3.75219325.chunk.js.map",
     "index.html": "/Math-Test-Exercises/index.html",
-    "static/css/main.4130e38f.chunk.css.map": "/Math-Test-Exercises/static/css/main.4130e38f.chunk.css.map",
+    "static/css/main.fc97488c.chunk.css.map": "/Math-Test-Exercises/static/css/main.fc97488c.chunk.css.map",
     "static/js/2.b630b0b7.chunk.js.LICENSE.txt": "/Math-Test-Exercises/static/js/2.b630b0b7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.70ecc0c4.js",
     "static/js/2.b630b0b7.chunk.js",
-    "static/css/main.4130e38f.chunk.css",
+    "static/css/main.fc97488c.chunk.css",
     "static/js/main.9fa90c32.chunk.js"
   ]
 }
