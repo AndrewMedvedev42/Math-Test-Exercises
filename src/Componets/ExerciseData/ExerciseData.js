@@ -1,10 +1,10 @@
 //Here is the data that cotains description, math problem, and answer
 
 const Data = [
-    {id:1, sortKey:"easy", problemDescription:"Easy ex" ,mathProblem:"2+2", answer:7},
-    {id:2, sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"2+2", answer:7},
-    {id:3, sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"2+2", answer:7},
-    {id:4,  sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"2+2", answer:7},
+    {id:1, sortKey:"easy", problemDescription:"Find for X"   ,mathProblem:"7x + 13 = 34", answer:3},
+    {id:2, sortKey:"easy",problemDescription:"Find for X" ,mathProblem:"-5x + 20 = 25", answer:-1},
+    {id:3, sortKey:"easy",problemDescription:"Evaluate" ,mathProblem:" 30 - 12÷3×2 = ?", answer:22},
+    {id:4,  sortKey:"easy",problemDescription:"Find for X" ,mathProblem:"5x + 2(x + 7) = 14x – 7", answer:3},
     {id:5,  sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"2+2", answer:7},
     {id:6,  sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"2+2", answer:7},
     {id:7,  sortKey:"easy",problemDescription:"Easy ex" ,mathProblem:"2+2", answer:7},
