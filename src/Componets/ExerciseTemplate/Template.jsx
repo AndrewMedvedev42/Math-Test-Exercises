@@ -1,40 +1,47 @@
 import { useState } from "react"
 import Data from "../ExerciseData/ExerciseData.js"
 
-function Template({keyName}){
+//template of the item with exercise data like for desription, problem, input and button
 
+function Template({keyName}){
+  //sets answer that was typed(for now only with numbers)
   const [typedAnswer, setTypedAnswer] = useState(0)
 
-  console.log(keyName);
-
     return( <section>{
+      //maps throgh data from ExerciseData.js
       Data.map((induvidual)=>{
         const {keyPass, problemDescription, mathProblem, answer, sortKey, id} = induvidual
+        //consoles the mathProblem and answer to console to now the true answer(for testing only!)
+        
+        console.log(`${mathProblem} Answer:${answer}`);
+        console.log("_");
 
+    //targets value of the induvidual item
         if(sortKey === keyName){
           const onChange = (e) =>{
             setTypedAnswer(e.target.value)
-            console.log(`${problemDescription}: ${e.target.value}`)
           }
-          
+    //sets changes if the answer is right or not. This function disables inputfield and colors the button green 
+    //if the answer is right or makes button red if it is wrong
           const onCheck = () =>{
             console.log("Checked")
             console.log(typeof typedAnswer)
             if(parseInt(typedAnswer) === answer){
-              alert("You get it right! Good Job!")
+              document.getElementById("answer").disabled = true;
+              document.getElementById("button").style.backgroundColor = "lime";
             }else{
-              alert("Answer is incorrect");
+              document.getElementById("button").style.backgroundColor = "crimson";
             }
           }
-          
+      //the temple ot self  
           return (
            <div key={id} className="item">
              <h3>{problemDescription}</h3>
                 <div className="itemContent">
                     <p>{mathProblem}</p>
                     <div>
-                      <input type="text" onChange={onChange}/>
-                      <button onClick={onCheck}>Submit</button>
+                      <input id="answer" type="text" onChange={onChange}/>
+                      <button id="button" onClick={onCheck}>Submit</button>
                     </div>
                 </div>
            </div>
