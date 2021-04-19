@@ -36,16 +36,16 @@ body {
         margin-right: 1rem; }
         body .difficultyRouter .difficultySection ul li .Link {
           text-decoration: none;
-          color: white;
+          color: #cc5200;
           font-size: 1.5rem;
           padding: 0.7rem;
           font-weight: bolder;
           border-radius: 25px;
-          background-color: #cc5200;
+          background-color: white;
           transition: 0.5s; }
         body .difficultyRouter .difficultySection ul li .linkHover:hover {
-          background: white;
-          color: #cc5200; }
+          background: black;
+          color: white; }
 
 .item {
   margin: 1rem;
