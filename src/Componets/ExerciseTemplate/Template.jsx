@@ -10,38 +10,49 @@ function Template({keyName}){
     return( <section>{
       //maps throgh data from ExerciseData.js
       Data.map((induvidual)=>{
-        const {keyPass, problemDescription, mathProblem, answer, sortKey, id} = induvidual
+        const {problemDescription, mathProblem, answer, sortKey, id} = induvidual
         //consoles the mathProblem and answer to console to now the true answer(for testing only!)
         
         console.log(`${mathProblem} Answer:${answer}`);
-        console.log("_");
 
     //targets value of the induvidual item
         if(sortKey === keyName){
+
           const onChange = (e) =>{
             setTypedAnswer(e.target.value)
           }
     //sets changes if the answer is right or not. This function disables inputfield and colors the button green 
     //if the answer is right or makes button red if it is wrong
-          const onCheck = () =>{
+          const onCheck = (id) =>{
             console.log("Checked")
             console.log(typeof typedAnswer)
             if(parseInt(typedAnswer) === answer){
-              document.getElementById("answer").disabled = true;
-              document.getElementById("button").style.backgroundColor = "lime";
+
+              let node = document.getElementById(`${id}verificationMessage`)
+              node.textContent = "Good job!"
+              node.style.color = "limegreen"
+
+              document.getElementById(`${id}input`).disabled = true
+              document.getElementById(`${id}button`).disabled = true
             }else{
-              document.getElementById("button").style.backgroundColor = "crimson";
+
+              let node = document.getElementById(`${id}verificationMessage`)
+              node.textContent = "Incorrect, try again!"
+              node.style.color = "crimson"
             }
           }
       //the temple ot self  
           return (
-           <div key={id} className="item">
-             <h3>{problemDescription}</h3>
+           <div id={id} key={id} className="item">
+             <div id={`${id}Title`} className="title">
+              <h3>{problemDescription}</h3>
+              <h1 id={`${id}verificationMessage`}></h1>
+             </div>
                 <div className="itemContent">
                     <p>{mathProblem}</p>
                     <div>
-                      <input id="answer" type="text" onChange={onChange}/>
-                      <button id="button" onClick={onCheck}>Submit</button>
+                      <input id={`${id}input`} type="text" onChange={onChange}/>
+                      <button id={`${id}button`} onClick={()=>{onCheck(id)}}>Submit</button>
                     </div>
                 </div>
            </div>

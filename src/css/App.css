@@ -52,7 +52,14 @@ body {
   padding: 1rem;
   border-radius: 25px;
   background-color: white;
-  box-shadow: rgba(153, 0, 0, 0.288) 5px 5px 0; }
+  box-shadow: rgba(153, 0, 0, 0.5) 5px 5px 0;
+  transition: 0.5s; }
+  .item .title {
+    display: flex;
+    justify-content: space-between; }
+    .item .title h1 {
+      color: white;
+      transition: 0.5s; }
   .item div div {
     display: flex;
     justify-content: space-between; }
@@ -85,3 +92,11 @@ body {
     display: flex;
     flex-direction: none;
     justify-content: center; } }
+
+article {
+  text-align: center; }
+  article h1 {
+    font-size: 2.5rem;
+    margin: 5px; }
+  article p {
+    font-size: 1.5rem; }

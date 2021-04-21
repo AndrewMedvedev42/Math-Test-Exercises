@@ -1,5 +1,6 @@
 import  Template  from "../ExerciseTemplate/Template.jsx";
 import '../../css/App.css';
+import  SectionDescription  from "./SectionDescription";
 
 import {
     BrowserRouter as Router,
@@ -30,12 +31,15 @@ function Exercises() {
               renders the first one that matches the current URL. */}
           <Switch>
             <Route path="/exercises/easy">
+              <SectionDescription difficulty="Easy" />
               <Template keyName="easy"/>
             </Route>
             <Route path="/exercises/normal">
+              <SectionDescription difficulty="Normal" />
               <Template keyName="norm"/>
             </Route>
             <Route path="/exercises/hard">
+              <SectionDescription difficulty="Hard" />
               <Template keyName="hard"/>
             </Route>
           </Switch>

@@ -72,13 +72,23 @@ body{
     }
   }
 }
+
 .item{
+  .title{
+    display: flex;
+    justify-content: space-between;
+    h1{
+      color: white;
+      transition: 0.5s;
+    }
+  }
   margin: 1rem;
   padding: 1rem;
   border-radius: 25px;
   background-color: $ThirdColor;
-  box-shadow: rgba(153, 0, 0, 0.288) 5px 5px 0;
+  box-shadow: rgba(153, 0, 0, 0.5) 5px 5px 0;
   // border: 5px solid rgb(50, 190, 69);
+  transition: 0.5s;
   div{
     div{
       display: flex;
@@ -125,4 +135,15 @@ body{
     justify-content: center;
   }
 
+}
+
+article{
+  text-align: center;
+  h1{
+    font-size: 2.5rem;
+    margin: 5px;
+  }
+  p{
+    font-size: 1.5rem;
+  }
 }
