@@ -57,19 +57,26 @@ body {
   .item .title {
     margin: 0.5rem;
     display: flex;
-    justify-content: space-between; }
-    .item .title h3 {
-      margin: 0px;
-      font-size: 1rem; }
+    justify-content: space-between;
+    align-items: center; }
     .item .title h1 {
+      margin: 1rem;
+      font-size: 1.5rem; }
+    .item .title h2 {
+      margin: 0px;
+      font-size: 1.5rem;
       color: white;
       transition: 0.5s; }
   .item .itemContent p {
-    margin: 0.5rem;
-    font-size: 2rem; }
+    text-align: center;
+    margin: 0px 0px 0.5rem 0px;
+    font-size: 2rem;
+    font-weight: bolder; }
   .item .itemContent div {
     display: flex;
-    justify-content: space-between; }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
     .item .itemContent div input, .item .itemContent div button {
       margin: 0.5rem;
       border-radius: 25px;

@@ -25,7 +25,6 @@ function Template({keyName}){
 //if the answer is right or makes button red if it is wrong
           const onCheck = (id) =>{
             console.log("Checked")
-            console.log(typeof typedAnswer)
 //changes the text content and color of <h1>(line 50) if the answer was right or wrong
             if(parseInt(typedAnswer) === answer){
 
@@ -35,7 +34,7 @@ function Template({keyName}){
 //disables input field and button if the answer was right
               document.getElementById(`${id}input`).disabled = true
               document.getElementById(`${id}button`).disabled = true
-              document.getElementById(`${id}button`).style.backgroundColor = "lightgrey"
+              document.getElementById(`${id}button`).style.backgroundColor = "#cccccc"
             }else{
 //changes text content and color  of <h1>(line 50) to red if the answer was wrong
               let node = document.getElementById(`${id}verificationMessage`)
@@ -47,13 +46,14 @@ function Template({keyName}){
           return (
            <div id={id} key={id} className="item">
              <div id={`${id}Title`} className="title">
-              <h3>{problemDescription}</h3>
-              <h1 id={`${id}verificationMessage`}></h1>
+              <h1>{problemDescription}</h1>
+              <h2 id={`${id}verificationMessage`}></h2>
              </div>
+
                 <div className="itemContent">
                     <p>{mathProblem}</p>
                     <div>
-                      <input id={`${id}input`} type="text" onChange={onChange} autocomplete="off"/>
+                      <input id={`${id}input`} type="text" onChange={onChange} autoComplete="off"/>
                       <button id={`${id}button`} onClick={()=>{onCheck(id)}}>Submit</button>
                     </div>
                 </div>
