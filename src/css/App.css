@@ -49,39 +49,46 @@ body {
 
 .item {
   margin: 1rem;
-  padding: 1rem;
-  border-radius: 25px;
+  padding: 2rem;
+  border-radius: 50px;
   background-color: white;
   box-shadow: rgba(153, 0, 0, 0.5) 5px 5px 0;
   transition: 0.5s; }
   .item .title {
+    margin: 0.5rem;
     display: flex;
     justify-content: space-between; }
+    .item .title h3 {
+      margin: 0px;
+      font-size: 1rem; }
     .item .title h1 {
       color: white;
       transition: 0.5s; }
-  .item div div {
+  .item .itemContent p {
+    margin: 0.5rem;
+    font-size: 2rem; }
+  .item .itemContent div {
     display: flex;
     justify-content: space-between; }
-    .item div div input, .item div div button {
+    .item .itemContent div input, .item .itemContent div button {
       margin: 0.5rem;
       border-radius: 25px;
       padding: 1rem;
       border: none; }
-    .item div div input {
+    .item .itemContent div input {
       width: 250px;
       font-size: 1rem;
       border: 1px solid rgba(0, 0, 0, 0.486);
       font-weight: bold;
       letter-spacing: 2px; }
-    .item div div button {
+    .item .itemContent div button {
       width: 100px;
       color: white;
       font-size: large;
       font-weight: bolder;
       background-color: #cc5200;
       transition: 0.5s; }
-    .item div div button:hover {
+    .item .itemContent div button:hover {
       background: #ffa366; }
 
 @media (min-width: 900px) {
@@ -96,8 +103,12 @@ body {
 article {
   text-align: center; }
   article h1 {
+    color: #cc5200;
     font-size: 2.5rem;
     margin: 2.5rem 0px 0px 0px; }
   article p {
     margin: 0px 0px 1rem 0px;
     font-size: 1.5rem; }
+  article .opac {
+    font-size: 0.9rem;
+    opacity: 0.5; }
