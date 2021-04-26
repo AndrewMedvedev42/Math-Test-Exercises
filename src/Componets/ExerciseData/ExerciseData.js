@@ -6,6 +6,7 @@ const Data = [
     {id:3, sortKey:"easy",problemDescription:"Find for X" ,mathProblem:"4x + 3 = 11", answer:2},
     {id:4,  sortKey:"easy",problemDescription:"Find for X" ,mathProblem:"-5x + 20 = 25", answer:-1},
     {id:5,  sortKey:"easy",problemDescription:"Norm ex" ,mathProblem:"12x + 0 = 144", answer:12},
+    {id:6,  sortKey:"easy",problemDescription:"Norm ex" ,mathProblem:"12x + 0 = 144", answer:12},
 
 
     {id:11, sortKey:"medium",problemDescription:"Mario answered 30% of the questions correctly. The test contained a total of 80 questions. How many questions did Mario answer correctly?" ,mathProblem:"", answer:7},
@@ -13,13 +14,15 @@ const Data = [
     {id:33,  sortKey:"medium",problemDescription:"Medium" ,mathProblem:"65+9c", answer:7},
     {id:44,  sortKey:"medium",problemDescription:"Medium" ,mathProblem:"6c5c+4+9c", answer:7},
     {id:55,  sortKey:"medium",problemDescription:"Medium" ,mathProblem:"6c+14=−9c", answer:7},
+    {id:66,  sortKey:"medium",problemDescription:"Medium" ,mathProblem:"6c+14=−9c", answer:7},
 
 
     {id:21, sortKey:"hard",problemDescription:"Hard" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
     {id:22,  sortKey:"hard",problemDescription:"Hard" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
     {id:23,  sortKey:"hard",problemDescription:"Hard" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
     {id:24,  sortKey:"hard",problemDescription:"Hard" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
-    {id:25,  sortKey:"hard",problemDescription:"Hard" ,mathProblem:"6c+14=−5c+4+9c", answer:7}
+    {id:25,  sortKey:"hard",problemDescription:"Hard" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
+    {id:26,  sortKey:"hard",problemDescription:"Hard" ,mathProblem:"6c+14=−5c+4+9c", answer:7}
 ]
 
 //Exporting the data

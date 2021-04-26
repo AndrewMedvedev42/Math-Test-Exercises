@@ -1,6 +1,7 @@
 import Exercises from "./Componets/Navigation/ExerciseSection.js";
 import About from "./Componets/Navigation/AboutSection.js";
 import { FaPenAlt } from 'react-icons/fa';
+import FadeIn from 'react-fade-in';
 
 import './css/App.css';
 import React from "react";
@@ -22,7 +23,7 @@ function App() {
           <ul>
             <li><FaPenAlt size={40} className="logoIcon"/></li>
             <li>
-              <Link className="Link" to="/">Exercises</Link>
+              <Link className="Link" to="/exercises/easy">Exercises</Link>
             </li>
 
             <li>
@@ -36,7 +37,10 @@ function App() {
             renders the first one that matches the current URL. */}
         <Switch>
           <Route path="/about">
+            <FadeIn>
             <About />
+            </FadeIn>
+
           </Route>
           <Route path="/">
             <Exercises />

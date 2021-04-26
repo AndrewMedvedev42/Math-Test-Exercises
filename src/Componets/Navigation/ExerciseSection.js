@@ -20,7 +20,7 @@ function Exercises() {
                 <Link className="Link linkHover" to="/exercises/easy">Easy</Link>
               </li>
               <li>
-                <Link className="Link linkHover" to="/exercises/normal">Normal</Link>
+                <Link className="Link linkHover" to="/exercises/normal">Medium</Link>
               </li>
               <li>
                 <Link className="Link linkHover" to="/exercises/hard">Hard</Link>
@@ -43,35 +43,29 @@ function Exercises() {
         </section>
       </Router>
     );
-  
+    
     function Easy() {
       return(
-        <section>
-          <FadeIn>
+          <FadeIn delay={200}>
             <SectionDescription difficulty="Easy" />
             <Template keyName="easy"/>
           </FadeIn>
-        </section>
       )
     }
     function Medium() {
       return(
-        <section>
-          <FadeIn>
+          <FadeIn delay={200}>
             <SectionDescription difficulty="Medium" />
             <Template keyName="medium"/>
           </FadeIn>
-        </section>
       )
     }
     function Hard() {
       return(
-        <section>
-          <FadeIn>
+          <FadeIn delay={200}>
             <SectionDescription difficulty="Hard" />
             <Template keyName="hard"/>
           </FadeIn>
-        </section>
       )
     }
 }
