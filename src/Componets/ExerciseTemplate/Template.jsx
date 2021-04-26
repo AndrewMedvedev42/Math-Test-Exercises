@@ -1,13 +1,14 @@
 import { useState } from "react"
 import Data from "../ExerciseData/ExerciseData.js"
 
+
 //template of the item with exercise data like for desription, problem, input and button
 
 function Template({keyName}){
   //sets answer that was typed(for now only with numbers)
   const [typedAnswer, setTypedAnswer] = useState(0)
 
-    return( <section>{
+    return(<section>{
 //maps throgh data from ExerciseData.js
       Data.map((induvidual)=>{
         const {problemDescription, mathProblem, answer, sortKey, id} = induvidual
@@ -45,6 +46,7 @@ function Template({keyName}){
       //the temple ot self  
           return (
            <div id={id} key={id} className="item">
+
              <div id={`${id}Title`} className="title">
               <h1>{problemDescription}</h1>
               <h2 id={`${id}verificationMessage`}></h2>
@@ -56,7 +58,9 @@ function Template({keyName}){
                       <input id={`${id}input`} type="text" onChange={onChange} autoComplete="off"/>
                       <button id={`${id}button`} onClick={()=>{onCheck(id)}}>Submit</button>
                     </div>
+
                 </div>
+                
            </div>
           )
         }

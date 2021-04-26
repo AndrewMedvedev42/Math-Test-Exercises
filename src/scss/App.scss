@@ -17,6 +17,7 @@ body{
         align-items: center;
         display: flex;
         li{    
+
           .Link{
             color: $SecndColor;
             font-weight: bold;
@@ -34,7 +35,11 @@ body{
           .Link:target{
             color: rgb(153, 36, 36);
           }
-
+          .logoIcon, .logoIcon:active, .logoIcon:target{
+            margin: 3px;
+            color: $SecndColor;
+            border: none;
+          }
           list-style-type: none;
           margin-right: 1rem;
         }
@@ -88,11 +93,11 @@ body{
     align-items: center;
     h1{
       margin:1rem;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
     h2{
       margin: 0px;
-      font-size: 1.5rem;
+      font-size: 2rem;
       color: white;
       transition: 0.5s;
     }
@@ -142,6 +147,7 @@ body{
 @media(min-width: 900px) {
   .item{
     width: 40%;
+
   }
 
   .difficultyRouter section{

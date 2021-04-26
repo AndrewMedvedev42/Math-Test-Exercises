@@ -1,5 +1,6 @@
 import Exercises from "./Componets/Navigation/ExerciseSection.js";
 import About from "./Componets/Navigation/AboutSection.js";
+import { FaPenAlt } from 'react-icons/fa';
 
 import './css/App.css';
 import React from "react";
@@ -19,6 +20,7 @@ function App() {
         <nav className="navSection">
 
           <ul>
+            <li><FaPenAlt size={40} className="logoIcon"/></li>
             <li>
               <Link className="Link" to="/">Exercises</Link>
             </li>

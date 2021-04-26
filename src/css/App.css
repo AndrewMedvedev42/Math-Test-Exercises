@@ -25,6 +25,10 @@ body {
           border-bottom: solid black 5px; }
         body .router .navSection ul li .Link:target {
           color: #992424; }
+        body .router .navSection ul li .logoIcon, body .router .navSection ul li .logoIcon:active, body .router .navSection ul li .logoIcon:target {
+          margin: 3px;
+          color: #cc5200;
+          border: none; }
   body .difficultyRouter {
     background-color: #ffa366; }
     body .difficultyRouter .difficultySection ul {
@@ -61,10 +65,10 @@ body {
     align-items: center; }
     .item .title h1 {
       margin: 1rem;
-      font-size: 1.5rem; }
+      font-size: 1.3rem; }
     .item .title h2 {
       margin: 0px;
-      font-size: 1.5rem;
+      font-size: 2rem;
       color: white;
       transition: 0.5s; }
   .item .itemContent p {

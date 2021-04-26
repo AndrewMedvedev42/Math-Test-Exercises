@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Math-Test-Exercises/static/css/main.2c3d9884.chunk.css",
-    "main.js": "/Math-Test-Exercises/static/js/main.7913e99a.chunk.js",
-    "main.js.map": "/Math-Test-Exercises/static/js/main.7913e99a.chunk.js.map",
-    "runtime-main.js": "/Math-Test-Exercises/static/js/runtime-main.70ecc0c4.js",
-    "runtime-main.js.map": "/Math-Test-Exercises/static/js/runtime-main.70ecc0c4.js.map",
-    "static/js/2.4bb44345.chunk.js": "/Math-Test-Exercises/static/js/2.4bb44345.chunk.js",
-    "static/js/2.4bb44345.chunk.js.map": "/Math-Test-Exercises/static/js/2.4bb44345.chunk.js.map",
-    "static/js/3.75219325.chunk.js": "/Math-Test-Exercises/static/js/3.75219325.chunk.js",
-    "static/js/3.75219325.chunk.js.map": "/Math-Test-Exercises/static/js/3.75219325.chunk.js.map",
+    "main.css": "/Math-Test-Exercises/static/css/main.52e26e2f.chunk.css",
+    "main.js": "/Math-Test-Exercises/static/js/main.5119b743.chunk.js",
+    "main.js.map": "/Math-Test-Exercises/static/js/main.5119b743.chunk.js.map",
+    "runtime-main.js": "/Math-Test-Exercises/static/js/runtime-main.b3a8ac73.js",
+    "runtime-main.js.map": "/Math-Test-Exercises/static/js/runtime-main.b3a8ac73.js.map",
+    "static/js/2.ba0ec6ec.chunk.js": "/Math-Test-Exercises/static/js/2.ba0ec6ec.chunk.js",
+    "static/js/2.ba0ec6ec.chunk.js.map": "/Math-Test-Exercises/static/js/2.ba0ec6ec.chunk.js.map",
+    "static/js/3.b3814fae.chunk.js": "/Math-Test-Exercises/static/js/3.b3814fae.chunk.js",
+    "static/js/3.b3814fae.chunk.js.map": "/Math-Test-Exercises/static/js/3.b3814fae.chunk.js.map",
     "index.html": "/Math-Test-Exercises/index.html",
-    "static/css/main.2c3d9884.chunk.css.map": "/Math-Test-Exercises/static/css/main.2c3d9884.chunk.css.map",
-    "static/js/2.4bb44345.chunk.js.LICENSE.txt": "/Math-Test-Exercises/static/js/2.4bb44345.chunk.js.LICENSE.txt"
+    "static/css/main.52e26e2f.chunk.css.map": "/Math-Test-Exercises/static/css/main.52e26e2f.chunk.css.map",
+    "static/js/2.ba0ec6ec.chunk.js.LICENSE.txt": "/Math-Test-Exercises/static/js/2.ba0ec6ec.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.70ecc0c4.js",
-    "static/js/2.4bb44345.chunk.js",
-    "static/css/main.2c3d9884.chunk.css",
-    "static/js/main.7913e99a.chunk.js"
+    "static/js/runtime-main.b3a8ac73.js",
+    "static/js/2.ba0ec6ec.chunk.js",
+    "static/css/main.52e26e2f.chunk.css",
+    "static/js/main.5119b743.chunk.js"
   ]
 }

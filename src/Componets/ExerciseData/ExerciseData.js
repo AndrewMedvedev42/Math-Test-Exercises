@@ -8,11 +8,11 @@ const Data = [
     {id:5,  sortKey:"easy",problemDescription:"Norm ex" ,mathProblem:"12x + 0 = 144", answer:12},
 
 
-    {id:11, sortKey:"medium",problemDescription:"Medium" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
-    {id:22,  sortKey:"medium",problemDescription:"Medium" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
-    {id:33,  sortKey:"medium",problemDescription:"Medium" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
-    {id:44,  sortKey:"medium",problemDescription:"Medium" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
-    {id:55,  sortKey:"medium",problemDescription:"Medium" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
+    {id:11, sortKey:"medium",problemDescription:"Mario answered 30% of the questions correctly. The test contained a total of 80 questions. How many questions did Mario answer correctly?" ,mathProblem:"", answer:7},
+    {id:22,  sortKey:"medium",problemDescription:"Medium" ,mathProblem:"6c+14=c", answer:7},
+    {id:33,  sortKey:"medium",problemDescription:"Medium" ,mathProblem:"65+9c", answer:7},
+    {id:44,  sortKey:"medium",problemDescription:"Medium" ,mathProblem:"6c5c+4+9c", answer:7},
+    {id:55,  sortKey:"medium",problemDescription:"Medium" ,mathProblem:"6c+14=−9c", answer:7},
 
 
     {id:21, sortKey:"hard",problemDescription:"Hard" ,mathProblem:"6c+14=−5c+4+9c", answer:7},
