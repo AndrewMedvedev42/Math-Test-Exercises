@@ -44,6 +44,8 @@ function Template({keyName}){
             }
           }
       //the temple ot self  
+      //so here if can see, I made uniqe ids for each element in "item" slot depending by id of the "item" 
+      //so each element can have independed but same checking procedure 
           return (
            <div id={id} key={id} className="item">
 

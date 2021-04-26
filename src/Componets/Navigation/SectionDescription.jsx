@@ -1,3 +1,5 @@
+//This is template for description of current choosed section
+
 function SectionDescription({difficulty}){
     return(<article>
         <h1>{`${difficulty}`}</h1>

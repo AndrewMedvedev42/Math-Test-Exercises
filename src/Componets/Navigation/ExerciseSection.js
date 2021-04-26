@@ -1,8 +1,9 @@
 import  Template  from "../ExerciseTemplate/Template.jsx";
 import '../../css/App.css';
 import  SectionDescription  from "./SectionDescription";
+//imported a fade-in components from packege.json
 import FadeIn from 'react-fade-in';
-
+//imported react router from packege.json
 import {
     BrowserRouter as Router,
     Switch,
@@ -43,7 +44,7 @@ function Exercises() {
         </section>
       </Router>
     );
-    
+
     function Easy() {
       return(
           <FadeIn delay={200}>
