@@ -1,0 +1,10 @@
+.abouttitlesect {
+  margin: 2rem; }
+  .abouttitlesect h1 {
+    font-size: 2.5rem; }
+  .abouttitlesect div {
+    border-radius: 25px;
+    padding: 2rem;
+    background-color: white; }
+    .abouttitlesect div p {
+      font-size: 1.5rem; }
