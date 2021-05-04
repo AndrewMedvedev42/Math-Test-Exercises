@@ -1,22 +1,26 @@
 {
   "files": {
     "main.css": "/Math-Test-Exercises/static/css/main.81726f67.chunk.css",
-    "main.js": "/Math-Test-Exercises/static/js/main.8abca7a3.chunk.js",
-    "main.js.map": "/Math-Test-Exercises/static/js/main.8abca7a3.chunk.js.map",
-    "runtime-main.js": "/Math-Test-Exercises/static/js/runtime-main.7efd3b70.js",
-    "runtime-main.js.map": "/Math-Test-Exercises/static/js/runtime-main.7efd3b70.js.map",
-    "static/js/2.07569b76.chunk.js": "/Math-Test-Exercises/static/js/2.07569b76.chunk.js",
-    "static/js/2.07569b76.chunk.js.map": "/Math-Test-Exercises/static/js/2.07569b76.chunk.js.map",
-    "static/js/3.b0dc48f4.chunk.js": "/Math-Test-Exercises/static/js/3.b0dc48f4.chunk.js",
-    "static/js/3.b0dc48f4.chunk.js.map": "/Math-Test-Exercises/static/js/3.b0dc48f4.chunk.js.map",
+    "main.js": "/Math-Test-Exercises/static/js/main.cb40e4ec.chunk.js",
+    "main.js.map": "/Math-Test-Exercises/static/js/main.cb40e4ec.chunk.js.map",
+    "runtime-main.js": "/Math-Test-Exercises/static/js/runtime-main.2c2561c9.js",
+    "runtime-main.js.map": "/Math-Test-Exercises/static/js/runtime-main.2c2561c9.js.map",
+    "static/css/2.d7cefc7d.chunk.css": "/Math-Test-Exercises/static/css/2.d7cefc7d.chunk.css",
+    "static/js/2.194ab626.chunk.js": "/Math-Test-Exercises/static/js/2.194ab626.chunk.js",
+    "static/js/2.194ab626.chunk.js.map": "/Math-Test-Exercises/static/js/2.194ab626.chunk.js.map",
+    "static/js/3.1624fdeb.chunk.js": "/Math-Test-Exercises/static/js/3.1624fdeb.chunk.js",
+    "static/js/3.1624fdeb.chunk.js.map": "/Math-Test-Exercises/static/js/3.1624fdeb.chunk.js.map",
     "index.html": "/Math-Test-Exercises/index.html",
+    "static/css/2.d7cefc7d.chunk.css.map": "/Math-Test-Exercises/static/css/2.d7cefc7d.chunk.css.map",
     "static/css/main.81726f67.chunk.css.map": "/Math-Test-Exercises/static/css/main.81726f67.chunk.css.map",
-    "static/js/2.07569b76.chunk.js.LICENSE.txt": "/Math-Test-Exercises/static/js/2.07569b76.chunk.js.LICENSE.txt"
+    "static/js/2.194ab626.chunk.js.LICENSE.txt": "/Math-Test-Exercises/static/js/2.194ab626.chunk.js.LICENSE.txt",
+    "static/media/mathquill.css": "/Math-Test-Exercises/static/media/Symbola.c2f28720.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.7efd3b70.js",
-    "static/js/2.07569b76.chunk.js",
+    "static/js/runtime-main.2c2561c9.js",
+    "static/css/2.d7cefc7d.chunk.css",
+    "static/js/2.194ab626.chunk.js",
     "static/css/main.81726f67.chunk.css",
-    "static/js/main.8abca7a3.chunk.js"
+    "static/js/main.cb40e4ec.chunk.js"
   ]
 }

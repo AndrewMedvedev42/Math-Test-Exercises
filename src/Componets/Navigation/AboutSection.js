@@ -1,4 +1,5 @@
 import '../../css/About.css';
+import EquationEditor from "equation-editor-react";
 
 function About() {
     return (

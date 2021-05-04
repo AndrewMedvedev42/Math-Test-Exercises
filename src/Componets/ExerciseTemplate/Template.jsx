@@ -1,5 +1,6 @@
 import { useState } from "react"
 import Data from "../ExerciseData/ExerciseData.js"
+import EquationEditor from "equation-editor-react";
 
 
 //template of the item with exercise data like for desription, problem, input and button
@@ -27,7 +28,7 @@ function Template({keyName}){
           const onCheck = (id) =>{
             console.log("Checked")
 //changes the text content and color of <h1>(line 50) if the answer was right or wrong
-            if(parseInt(typedAnswer) === answer){
+            if(typedAnswer.replace(/\s+/g, '') == answer){
 
               let node = document.getElementById(`${id}verificationMessage`)
               node.textContent = "Good job!"
@@ -55,7 +56,7 @@ function Template({keyName}){
              </div>
 
                 <div className="itemContent">
-                    <p>{mathProblem}</p>
+                    <p><EquationEditor value={`${mathProblem}`} autoCommands="pi theta sqrt sum prod alpha beta gamma rho" autoOperatorNames="sin cos tan"/></p>
                     <div>
                       <input id={`${id}input`} type="text" onChange={onChange} autoComplete="off"/>
                       <button id={`${id}button`} onClick={()=>{onCheck(id)}}>Submit</button>
