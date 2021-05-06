@@ -60,23 +60,19 @@ body {
   box-shadow: rgba(153, 0, 0, 0.5) 5px 5px 0;
   transition: 0.5s; }
   .item .title {
-    margin: 0.5rem;
+    font-size: 1rem;
+    margin: 0rem;
     display: flex;
     justify-content: space-between;
     align-items: center; }
     .item .title h1 {
-      margin: 1rem;
-      font-size: 1.3rem; }
+      margin: 0; }
     .item .title h2 {
       margin: 0px;
-      font-size: 2rem;
       color: white;
       transition: 0.5s; }
-  .item .itemContent p {
-    text-align: center;
-    margin: 0px 0px 0.5rem 0px;
-    font-size: 2rem;
-    font-weight: bolder; }
+  .item .itemContent .mathProblemDesc {
+    margin: 1rem; }
   .item .itemContent div {
     display: flex;
     flex-direction: column;
@@ -84,7 +80,7 @@ body {
     align-items: center; }
     .item .itemContent div input, .item .itemContent div button {
       margin: 0.5rem;
-      border-radius: 25px;
+      border-radius: 50px;
       padding: 1rem;
       border: none; }
     .item .itemContent div input {
@@ -94,7 +90,7 @@ body {
       font-weight: bold;
       letter-spacing: 2px; }
     .item .itemContent div button {
-      width: 100px;
+      width: 250px;
       color: white;
       font-size: large;
       font-weight: bolder;
