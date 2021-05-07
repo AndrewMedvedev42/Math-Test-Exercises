@@ -1,5 +1,5 @@
-$MainColor:rgb(255, 163, 102);
-$SecndColor:rgb(204, 82, 0);
+$MainColor:#80ffaa;
+$SecndColor:#009933;
 $ThirdColor:rgb(255, 255, 255);
 
 .App {
@@ -83,7 +83,7 @@ body{
   padding: 2rem;
   border-radius: 50px;
   background-color: $ThirdColor;
-  box-shadow: rgba(153, 0, 0, 0.5) 5px 5px 0;
+  box-shadow: #009933 5px 5px 0;
   // border: 5px solid rgb(50, 190, 69);
   transition: 0.5s;
   .title{
