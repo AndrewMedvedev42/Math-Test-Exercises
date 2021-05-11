@@ -3,7 +3,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #80ffaa; }
+  background-color: #ffcc00; }
   body .router .navSection {
     padding: 1px;
     background-color: white; }
@@ -14,7 +14,7 @@ body {
         list-style-type: none;
         margin-right: 1rem; }
         body .router .navSection ul li .Link {
-          color: #009933;
+          color: #ff8000;
           font-weight: bold;
           font-size: 1.5rem;
           text-decoration: none;
@@ -28,10 +28,10 @@ body {
           color: #992424; }
         body .router .navSection ul li .logoIcon, body .router .navSection ul li .logoIcon:active, body .router .navSection ul li .logoIcon:target {
           margin: 3px;
-          color: #009933;
+          color: #ff8000;
           border: none; }
   body .difficultyRouter {
-    background-color: #80ffaa; }
+    background-color: #ffcc00; }
     body .difficultyRouter .difficultySection ul {
       display: flex;
       justify-content: center; }
@@ -41,7 +41,7 @@ body {
         margin-right: 1rem; }
         body .difficultyRouter .difficultySection ul li .Link {
           text-decoration: none;
-          color: #009933;
+          color: #ff8000;
           font-size: 1.5rem;
           padding: 0.7rem;
           font-weight: bolder;
@@ -57,7 +57,7 @@ body {
   padding: 2rem;
   border-radius: 50px;
   background-color: white;
-  box-shadow: #009933 5px 5px 0;
+  box-shadow: #ff8000 5px 5px 0;
   transition: 0.5s; }
   .item .title {
     font-size: 1rem;
@@ -94,10 +94,10 @@ body {
       color: white;
       font-size: large;
       font-weight: bolder;
-      background-color: #009933;
+      background-color: #ff8000;
       transition: 0.5s; }
     .item .itemContent div button:hover {
-      background: #80ffaa; }
+      background: #ffcc00; }
 
 @media (min-width: 900px) {
   .item {
@@ -111,7 +111,7 @@ body {
 article {
   text-align: center; }
   article h1 {
-    color: #009933;
+    color: #ff8000;
     font-size: 2.5rem;
     margin: 2.5rem 0px 0px 0px; }
   article p {
