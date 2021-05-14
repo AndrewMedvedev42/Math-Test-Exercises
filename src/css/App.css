@@ -66,6 +66,7 @@ body {
     justify-content: space-between;
     align-items: center; }
     .item .title h1 {
+      transition: 00.5s;
       margin: 0; }
     .item .title h2 {
       margin: 0px;
@@ -90,14 +91,15 @@ body {
       font-weight: bold;
       letter-spacing: 2px; }
     .item .itemContent div button {
-      width: 250px;
+      cursor: pointer;
+      width: 40%;
       color: white;
       font-size: large;
       font-weight: bolder;
-      background-color: #ff8000;
+      background-image: linear-gradient(180deg, #ff79dd 10%, #cc0099 70%);
       transition: 0.5s; }
     .item .itemContent div button:hover {
-      background: #ffcc00; }
+      width: 50%; }
 
 @media (min-width: 900px) {
   .item {
