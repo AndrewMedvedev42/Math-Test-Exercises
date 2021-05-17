@@ -18,7 +18,7 @@ const Data = [
 
 
     {id:21, sortKey:"hard",problemDescription:"What is the number of solutions of this eequation? (The answer should be a number)" ,mathProblem:"(x^2 + 1)^2 + 2(x^2 + 1) - 3 = 0", answer:1},
-    {id:22,  sortKey:"hard",problemDescription:"For all x real:" ,mathProblem:"\\sqrt{(x2 -4x + 4)}", answer:"|x-2|"},
+    {id:22,  sortKey:"hard",problemDescription:"For all x real:" ,mathProblem:"\\sqrt{(x^2 -4x + 4)}", answer:"|x-2|"},
     {id:23,  sortKey:"hard",problemDescription:"" ,mathProblem:"\\sqrt{(x 2 + 6x + 9)} =", answer:"|x+3|"},
     {id:24,  sortKey:"hard",problemDescription:"Solve the equation:" ,mathProblem:"2 (4^{x+1}) = 4 (8^{x+2})", answer:-5},
     {id:25,  sortKey:"hard",problemDescription:"How many solutions do the equation have? (The answer should be a number)" ,mathProblem:"1/x + 1/(x + 1) = 1/3", answer:2},

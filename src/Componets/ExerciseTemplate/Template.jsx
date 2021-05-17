@@ -20,7 +20,7 @@ function Template({keyName}){
         const {problemDescription, mathProblem, answer, sortKey, id} = induvidual
         //consoles the mathProblem and answer to console to now the true answer(for testing only!)
         
-        console.log(`${mathProblem} Answer:${answer}`);
+        console.log(`${sortKey} ${mathProblem} Answer:${answer}`);
         
 
         
@@ -44,12 +44,15 @@ function Template({keyName}){
               document.getElementById(`${id}input`).disabled = true
               document.getElementById(`${id}button`).disabled = true
               document.getElementById(`${id}button`).style.backgroundColor = "#cccccc"
+              //sets typed answer back to default to avoid "correct answer for all different exercises"
               setTypedAnswer(0)
             }else{
 //changes text content and color  of <h1>(line 50) to red if the answer was wrong
               let node = document.getElementById(`${id}verificationMessage`)
               node.textContent = "Incorrect, try again!"
               node.style.color = "crimson"
+              //sets typed answer back to default to avoid "correct answer for all different exercises"
+              setTypedAnswer(0)
             }
           }
       //the temple ot self  
@@ -58,13 +61,13 @@ function Template({keyName}){
 
           return (
            <div id={id} key={id} className="item">
-
              <div id={`${id}Title`} className="title">
               <h1>{problemDescription}</h1>
               <h2 id={`${id}verificationMessage`}></h2>
              </div>
                 <div className="itemContent">
                     <div className="mathProblemDesc">
+                      {/* Here is the compiler of algebra formulas */}
                       <MathJax.Provider>
                         <MathJax.Node inline formula={mathProblem}/>
                       </MathJax.Provider>
