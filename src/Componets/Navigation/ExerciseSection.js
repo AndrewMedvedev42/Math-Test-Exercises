@@ -15,13 +15,16 @@ function Exercises() {
     return(
         <Router>
         <section className="difficultyRouter">
+          <article>
+            <p className="opac">{"Select an you appropriate level in algebra"}</p>
+          </article>
           <nav className="difficultySection">
             <ul>
               <li>
                 <Link className="Link linkHover" to="/exercises/easy">Easy</Link>
               </li>
               <li>
-                <Link className="Link linkHover" to="/exercises/normal">Medium</Link>
+                <Link className="Link linkHover" to="/exercises/medium">Medium</Link>
               </li>
               <li>
                 <Link className="Link linkHover" to="/exercises/hard">Hard</Link>
@@ -34,7 +37,7 @@ function Exercises() {
             <Route path="/exercises/easy">
               <Easy/>
             </Route>
-            <Route path="/exercises/normal">
+            <Route path="/exercises/medium">
               <Medium/>
             </Route>
             <Route path="/exercises/hard">

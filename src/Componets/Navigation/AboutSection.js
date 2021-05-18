@@ -4,7 +4,7 @@ function About() {
     return (
       <section className="abouttitlesect">
         <div>
-          <h1>About</h1>
+          <h1>Welcome!</h1>
           <p>Math-Test-Exersices is non commersial platform for solving easy/medium/hard algebraic problems</p>
           <p>For now, this website does not contain hard stuctured exersises, and will be added later.</p>
           <h1>How to fill answers:</h1>

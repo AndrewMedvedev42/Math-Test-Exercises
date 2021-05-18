@@ -24,12 +24,12 @@ function App() {
           <ul>
             <li><FaPenAlt size={40} className="logoIcon"/></li>
             <li>
-              <Link className="Link" to="/">Exercises</Link>
+              <Link className="Link" to="/">About</Link>
+            </li>
+            <li>
+              <Link className="Link" to="/exercises">Exercises</Link>
             </li>
 
-            <li>
-              <Link className="Link" to="/about">About</Link>
-            </li>
           </ul>
 
         </nav>
@@ -37,14 +37,14 @@ function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/about">
+          <Route path="/exercises">
+            <Exercises />
+          </Route>
+
+          <Route path="/">
             <FadeIn>
             <About />
             </FadeIn>
-
-          </Route>
-          <Route path="/">
-            <Exercises />
           </Route>
         </Switch>
       </section>
