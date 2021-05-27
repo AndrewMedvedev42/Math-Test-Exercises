@@ -16,7 +16,7 @@ function Exercises() {
         <Router>
         <section className="difficultyRouter">
           <article>
-            <p className="opac">{"Select an you appropriate level in algebra"}</p>
+            <p className="opac">{"Select an appropriate for you level in algebra"}</p>
           </article>
           <nav className="difficultySection">
             <ul>
