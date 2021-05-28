@@ -38,19 +38,34 @@ function App() {
             renders the first one that matches the current URL. */}
         <Switch>
           <Route path="/exercises">
-            <FadeIn>
-              <Exercises />
-            </FadeIn>
+            <ExercisesTab/>
           </Route>
           <Route path="/">
-            <FadeIn>
-            <About />
-            </FadeIn>
+            <AboutTab/>
           </Route>
         </Switch>
       </section>
     </Router>
   );
+
+  function AboutTab() {
+    return(
+      <FadeIn>
+        <About />
+      </FadeIn>
+    )
+  }
+  
+  function ExercisesTab() {
+    return(
+      <FadeIn>
+        <Exercises />
+      </FadeIn>
+    )
+  }
+  
+  
 }
+
 
 export default App
