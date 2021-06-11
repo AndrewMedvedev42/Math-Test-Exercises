@@ -6,6 +6,9 @@
         font-size: 2.5rem;
     }
         div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             text-align: center;
             border-radius: 50px;
             padding: 2rem;
@@ -15,4 +18,36 @@
                 font-size: 1.3rem;
             }
         }
+        section{
+            display: flex;
+            justify-content: center;
+            .purplePenSVG{
+                margin: 1rem;
+                width: 5rem;
+            }
+        }
+        
     }
+    
+.authorMessage{
+    font-weight: bolder;
+    width: 500px;
+    padding: 1rem;
+    border-radius: 25px;
+    background-color: #cc0099;
+    color: white;
+    a{
+        color: #ffcc00;
+    };
+}
+
+.purplePenSVG{
+    animation: LeftToRightMoves 2s ease infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes LeftToRightMoves{
+    0% {transform: rotateZ(10deg);}
+    50% {transform: rotateZ(-10deg);}
+    100% {transform: rotateZ(10deg);}
+}
