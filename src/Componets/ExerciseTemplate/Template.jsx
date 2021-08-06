@@ -43,7 +43,9 @@ function Template({keyName}){
 //disables input field and button if the answer was right
               document.getElementById(`${id}input`).disabled = true
               document.getElementById(`${id}button`).disabled = true
-              document.getElementById(`${id}button`).style.backgroundColor = "#cccccc"
+              document.getElementById(`${id}button`).classList.remove("submitButton")
+              document.getElementById(`${id}button`).classList.add("buttonIsDisabled")
+              console.log("buttonIsDisabled");
               //sets typed answer back to default to avoid "correct answer for all different exercises"
               setTypedAnswer(0)
             }else{
@@ -74,7 +76,7 @@ function Template({keyName}){
                     </div>
                     <div>
                       <input id={`${id}input`} type="text" onChange={onChanges} autoComplete="off"/>
-                      <button id={`${id}button`} onClick={()=>{onCheck(id)}}>Submit</button>
+                      <button id={`${id}button`} className="submitButton" onClick={()=>{onCheck(id)}}>Submit</button>
                     </div>
 
                 </div>

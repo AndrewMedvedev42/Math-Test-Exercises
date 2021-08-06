@@ -83,7 +83,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-    .item .itemContent div input, .item .itemContent div button {
+    .item .itemContent div input, .item .itemContent div .submitButton, .item .itemContent div .buttonIsDisabled {
       margin: 0.5rem;
       border-radius: 50px;
       padding: 1rem;
@@ -94,7 +94,7 @@ body {
       border: 1px solid rgba(0, 0, 0, 0.486);
       font-weight: bold;
       letter-spacing: 2px; }
-    .item .itemContent div button {
+    .item .itemContent div .submitButton {
       cursor: pointer;
       width: 40%;
       color: white;
@@ -103,10 +103,10 @@ body {
       background-color: #cc0099;
       transition: 0.5s;
       box-shadow: 0 9px #830062; }
-    .item .itemContent div button:hover {
+    .item .itemContent div .submitButton:hover {
       box-shadow: 0 5px #830062;
       transform: translateY(0.5rem); }
-    .item .itemContent div button:active {
+    .item .itemContent div .submitButton:active {
       box-shadow: 0 0 #830062;
       transform: translateY(1rem); }
     .item .itemContent div button:focus {
@@ -120,6 +120,15 @@ body {
     display: flex;
     flex-direction: none;
     justify-content: center; } }
+
+.buttonIsDisabled, .buttonIsDisabled:hover {
+  transition: 0.5s;
+  width: 40%;
+  color: white;
+  background-color: silver;
+  font-size: large;
+  font-weight: bolder;
+  box-shadow: none; }
 
 article {
   text-align: center; }
