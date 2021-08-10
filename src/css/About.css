@@ -23,13 +23,17 @@
 
 .authorMessage {
   font-weight: bolder;
-  width: 500px;
+  width: 40%;
   padding: 1rem;
   border-radius: 25px;
   background-color: #cc0099;
   color: white; }
   .authorMessage a {
     color: #ffcc00; }
+
+@media (max-width: 600px) {
+  .authorMessage {
+    width: 80%; } }
 
 .purplePenSVG {
   animation: LeftToRightMoves 2s ease infinite;
