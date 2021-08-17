@@ -16,20 +16,12 @@ function Exercises() {
         <Router>
         <section className="difficultyRouter">
           <article>
-            <p className="opac">{"Select an appropriate for you level in algebra"}</p>
+            <p className="opac">Select an appropriate for you level in algebra</p>
           </article>
           <nav className="difficultySection">
-            <ul>
-              <li>
                 <Link className="Link linkHover" to="/exercises/easy">Easy</Link>
-              </li>
-              <li>
                 <Link className="Link linkHover" to="/exercises/medium">Medium</Link>
-              </li>
-              <li>
                 <Link className="Link linkHover" to="/exercises/hard">Hard</Link>
-              </li>
-            </ul>
           </nav>
           {/* A <Switch> looks through its children <Route>s and
               renders the first one that matches the current URL. */}

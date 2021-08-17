@@ -18,7 +18,6 @@ body{
         align-items: center;
         display: flex;
         li{    
-
           .Link{
             color: $SecndColor;
             font-weight: bold;
@@ -49,50 +48,39 @@ body{
     }
   }
   .difficultyRouter{
-    background-color: $MainColor;
     .difficultySection{
-        ul{
-          display: flex;
-          justify-content: center;
-          margin: 0;
-          li{
-              margin: 0.5rem;
-              list-style-type: none;
-              padding: 0.7rem;
-              transition: 0.5s;
+      display: flex;
+      justify-content: center;
               .Link{
+                margin: 0.5rem;
+                padding: 0.7rem;
                 font-size: 1.5rem;
                 border-radius: 50px;
                 background-color: white;
-                padding: 0.7rem;
                 text-decoration: none;
                 color: $SecndColor;
                 font-weight: bolder;
                 transition: 0.5s;
               }
               .Link:hover{
+                transform: translateY(0.5rem);
                 background: black;
                 color: white;
               }
           }
-          li:hover{
-            transform: translateY(0.5rem);
-          }
         }
-    }
-  }
 }
 
 .item{
   margin: 1rem;
   padding: 2rem;
-  border-radius: 50px;
+  border-radius: 15px;
   background-color: $ThirdColor;
   box-shadow: #ff8000 5px 5px 20px;
   // border: 5px solid rgb(50, 190, 69);
   transition: 0.5s;
   .title{
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin:0rem;
     display: flex;
     justify-content: space-between;
@@ -113,6 +101,8 @@ body{
   }
   .itemContent{
     .mathProblemDesc{
+      font-size: 1.5rem;
+      color: rgb(61, 61, 61);
       margin: 1rem;
       // border: solid rgb(180, 30, 30) 5px;
     }
@@ -122,6 +112,7 @@ body{
       justify-content: center;
       align-items: center;
       input, .submitButton, .buttonIsDisabled{
+        outline: none;
         margin: 0.5rem;
         border-radius: 50px;
         padding: 1rem;
@@ -138,7 +129,7 @@ body{
         cursor: pointer;
         width: 40%;
         color: white;
-        font-size: large;
+        font-size: 1.5rem;
         font-weight: bolder;
         background-color:$FourthColor;
         // background-image: linear-gradient(180deg, #ff79dd 10%, $FourthColor 70%);
@@ -164,7 +155,7 @@ body{
 @media(min-width: 900px) {
   .item{
     width: 40%;
-
+    border-radius: 50px;
   }
 
   .difficultyRouter section{

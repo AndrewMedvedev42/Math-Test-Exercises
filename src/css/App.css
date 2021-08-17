@@ -30,41 +30,33 @@ body {
           margin: 3px;
           color: #ff8000;
           border: none; }
-  body .difficultyRouter {
-    background-color: #ffcc00; }
-    body .difficultyRouter .difficultySection ul {
-      display: flex;
-      justify-content: center;
-      margin: 0; }
-      body .difficultyRouter .difficultySection ul li {
-        margin: 0.5rem;
-        list-style-type: none;
-        padding: 0.7rem;
-        transition: 0.5s; }
-        body .difficultyRouter .difficultySection ul li .Link {
-          font-size: 1.5rem;
-          border-radius: 50px;
-          background-color: white;
-          padding: 0.7rem;
-          text-decoration: none;
-          color: #ff8000;
-          font-weight: bolder;
-          transition: 0.5s; }
-        body .difficultyRouter .difficultySection ul li .Link:hover {
-          background: black;
-          color: white; }
-      body .difficultyRouter .difficultySection ul li:hover {
-        transform: translateY(0.5rem); }
+  body .difficultyRouter .difficultySection {
+    display: flex;
+    justify-content: center; }
+    body .difficultyRouter .difficultySection .Link {
+      margin: 0.5rem;
+      padding: 0.7rem;
+      font-size: 1.5rem;
+      border-radius: 50px;
+      background-color: white;
+      text-decoration: none;
+      color: #ff8000;
+      font-weight: bolder;
+      transition: 0.5s; }
+    body .difficultyRouter .difficultySection .Link:hover {
+      transform: translateY(0.5rem);
+      background: black;
+      color: white; }
 
 .item {
   margin: 1rem;
   padding: 2rem;
-  border-radius: 50px;
+  border-radius: 15px;
   background-color: white;
   box-shadow: #ff8000 5px 5px 20px;
   transition: 0.5s; }
   .item .title {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 0rem;
     display: flex;
     justify-content: space-between;
@@ -77,6 +69,8 @@ body {
       color: white;
       transition: 0.5s; }
   .item .itemContent .mathProblemDesc {
+    font-size: 1.5rem;
+    color: #3d3d3d;
     margin: 1rem; }
   .item .itemContent div {
     display: flex;
@@ -84,6 +78,7 @@ body {
     justify-content: center;
     align-items: center; }
     .item .itemContent div input, .item .itemContent div .submitButton, .item .itemContent div .buttonIsDisabled {
+      outline: none;
       margin: 0.5rem;
       border-radius: 50px;
       padding: 1rem;
@@ -98,7 +93,7 @@ body {
       cursor: pointer;
       width: 40%;
       color: white;
-      font-size: large;
+      font-size: 1.5rem;
       font-weight: bolder;
       background-color: #cc0099;
       transition: 0.5s;
@@ -114,7 +109,8 @@ body {
 
 @media (min-width: 900px) {
   .item {
-    width: 40%; }
+    width: 40%;
+    border-radius: 50px; }
   .difficultyRouter section {
     flex-wrap: wrap;
     display: flex;

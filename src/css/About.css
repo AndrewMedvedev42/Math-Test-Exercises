@@ -33,7 +33,11 @@
 
 @media (max-width: 600px) {
   .authorMessage {
-    width: 80%; } }
+    width: 80%; }
+  .abouttitlesect {
+    margin: 1rem; }
+    .abouttitlesect div {
+      border-radius: 15px; } }
 
 .purplePenSVG {
   animation: LeftToRightMoves 2s ease infinite;
